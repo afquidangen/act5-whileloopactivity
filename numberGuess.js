@@ -10,7 +10,7 @@ function getGuess() {
         } else {
             alert("Invalid input.");
         }
-        guess = prompt("Guess again: ");
+        let guess = prompt("Guess again: ");
     }   if (guess == numbertoGuess) {
         alert("Congratulations! You guessed the number!");
     }
